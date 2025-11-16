@@ -71,10 +71,10 @@ Cross-platform Expo app (iOS, Android, Web) with Expo Router, Tamagui, TypeScrip
 - ESLint v9 flat config (`eslint.config.cjs`) with Universe Native and `@typescript-eslint`.
 - Prettier enforces: single quotes, trailing commas, 100 cols, semicolons (see `.prettierrc`).
 - Run locally:
-	- Lint: `yarn lint` (fix: `yarn lint:fix`)
-	- Format: `yarn format` (check: `yarn format:check`)
-	- Types: `yarn typecheck`
-	- Tests: `yarn test -i`
+  - Lint: `yarn lint` (fix: `yarn lint:fix`)
+  - Format: `yarn format` (check: `yarn format:check`)
+  - Types: `yarn typecheck`
+  - Tests: `yarn test -i`
 - Note: ESLint ignores are configured in `eslint.config.cjs` (not `.eslintignore`).
 
 ### Git hygiene
