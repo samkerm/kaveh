@@ -19,8 +19,8 @@ describe('BedsList', () => {
       </TamaguiProvider>,
     );
 
-  const reserveBtn = screen.getAllByText('Reserve')[0];
-  fireEvent.press(reserveBtn);
+    const reserveBtn = screen.getAllByText('Reserve')[0];
+    fireEvent.press(reserveBtn);
     expect(onReserve).toHaveBeenCalled();
   });
 });

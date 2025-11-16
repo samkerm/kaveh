@@ -1,9 +1,11 @@
-import { Text, View } from 'react-native';
+import { YStack, Text } from 'tamagui';
 
 export default function SettingsScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Settings</Text>
-    </View>
+    <YStack f={1} ai="center" jc="center" p="$4">
+      <Text fontSize={18} fontWeight="600">
+        Settings
+      </Text>
+    </YStack>
   );
 }

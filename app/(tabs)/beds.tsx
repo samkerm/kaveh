@@ -1,5 +1,5 @@
-import BedsList from '../../src/flows/screens/Beds/components/BedsList/BedsList';
-import { useBeds } from '../../src/flows/screens/Beds/components/BedsList/useBeds';
+import BedsList from '@/flows/screens/Beds/components/BedsList/BedsList';
+import { useBeds } from '@/flows/screens/Beds/components/BedsList/useBeds';
 
 export default function BedsScreen() {
   const { beds, reserve, release } = useBeds([
