@@ -1,6 +1,6 @@
 // @ts-check
-const { getDefaultConfig } = require('expo/metro-config');
 const { withTamagui } = require('@tamagui/metro-plugin');
+const { getDefaultConfig } = require('expo/metro-config');
 
 const config = getDefaultConfig(__dirname);
 

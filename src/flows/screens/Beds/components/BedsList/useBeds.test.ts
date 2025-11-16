@@ -1,5 +1,6 @@
 import { renderHook, act } from '@testing-library/react-native';
-import { useBeds } from './BedsList/useBeds';
+
+import { useBeds } from './useBeds';
 
 describe('useBeds', () => {
   it('reserves and releases a bed', () => {

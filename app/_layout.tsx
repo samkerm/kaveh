@@ -1,9 +1,9 @@
-import 'react-native-gesture-handler';
-import { useEffect } from 'react';
 import { Stack } from 'expo-router';
+import { useEffect } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { TamaguiProvider } from 'tamagui';
+
 import tamaguiConfig from '../tamagui.config';
 import 'react-native-reanimated';
 

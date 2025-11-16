@@ -1,5 +1,6 @@
 import { YStack, XStack, Text, Button, Separator } from 'tamagui';
-import type { Bed } from './BedsList/useBeds';
+
+import type { Bed } from './useBeds';
 
 type Props = {
   beds: Bed[];
@@ -11,7 +12,7 @@ export default function BedsList({ beds, onReserve, onRelease }: Props) {
   return (
     <YStack p="$4" space="$3">
       {beds.map((b) => (
-        <YStack key={b.id} p="$3" bc="$bg" br="$2">
+        <YStack key={b.id} p="$3" bc="$background" br="$2">
           <XStack ai="center" jc="space-between">
             <Text>
               {b.label} — {b.status}

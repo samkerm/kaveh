@@ -1,7 +1,8 @@
 import { render, screen, fireEvent } from '@testing-library/react-native';
 import { TamaguiProvider } from 'tamagui';
-import tamaguiConfig from '../../../../../../tamagui.config';
+
 import BedsList from './BedsList';
+import tamaguiConfig from '../../../../../../tamagui.config';
 
 describe('BedsList', () => {
   it('renders and calls actions', () => {
