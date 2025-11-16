@@ -6,7 +6,10 @@ module.exports = function (api) {
     plugins: isTest
       ? []
       : [
-          ['@tamagui/babel-plugin', { components: ['tamagui'], logTimings: false }],
+          [
+            '@tamagui/babel-plugin',
+            { components: ['tamagui'], config: './tamagui.config.ts', logTimings: false },
+          ],
           'react-native-reanimated/plugin',
         ],
   };

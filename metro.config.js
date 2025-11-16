@@ -5,6 +5,6 @@ const { withTamagui } = require('@tamagui/metro-plugin');
 const config = getDefaultConfig(__dirname);
 
 module.exports = withTamagui(config, {
-  config: './tamagui.config.ts',
+  config: require.resolve('./tamagui.config.ts'),
   components: ['tamagui'],
 });
