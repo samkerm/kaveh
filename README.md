@@ -14,7 +14,6 @@ Cross-platform Expo app (iOS, Android, Web) with Expo Router, Tamagui, TypeScrip
 ## Structure
 
 - app/ — routes (Expo Router)
-- src/features/ — vertical slices (components, hooks, services, tests)
 - src/ui/ — shared UI
 - src/api/ — networking layer
 - src/lib/ — utilities
