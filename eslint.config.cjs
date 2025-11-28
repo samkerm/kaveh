@@ -14,10 +14,10 @@ module.exports = [
       'web-build/**',
       'dist/**',
       'build/**',
-      'src/features/**',
+      '.next/**',
+      'apps/web/.next/**',
     ],
   },
-  ...native,
   // Node config files
   {
     files: ['**/*.{cjs,js}', 'metro.config.js', 'babel.config.js', 'jest.config.cjs'],

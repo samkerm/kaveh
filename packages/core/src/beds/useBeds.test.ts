@@ -2,7 +2,7 @@ import { renderHook, act } from '@testing-library/react-native';
 
 import { useBeds } from './useBeds';
 
-describe('useBeds', () => {
+describe('useBeds (core)', () => {
   it('reserves and releases a bed', () => {
     const initial = [
       { id: '1', label: 'Bed 1', status: 'available' as const },

@@ -10,6 +10,23 @@ web-build/
 expo-env.d.ts
 .tamagui/
 
+# Next.js build output
+apps/web/.next/
+.next/
+*.next-cache
+
+# Coverage reports
+coverage/
+
+# Logs
+*.log
+
+# VSCode settings (optional)
+.vscode/
+
+# Yarn PnP optional cache
+.pnp.*
+
 # Native
 .kotlin/
 *.orig.*

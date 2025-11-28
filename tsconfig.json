@@ -9,9 +9,12 @@
       "@/lib/*": ["src/lib/*"],
       "@/api/*": ["src/api/*"],
       "@/theme/*": ["src/theme/*"],
-      "@/navigation/*": ["src/navigation/*"]
+      "@/navigation/*": ["src/navigation/*"],
+      "@kaveh/core": ["packages/core/src"],
+      "@kaveh/ui": ["packages/ui/src"],
+      "@tamagui-config": ["tamagui.config.ts"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
-  "exclude": ["node_modules", ".tamagui", "dist", "build", "web-build", "ios", "android"]
+  "exclude": ["node_modules", ".tamagui", "dist", "build", "web-build", "ios", "android", "apps"]
 }

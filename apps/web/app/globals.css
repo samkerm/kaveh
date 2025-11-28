@@ -1,0 +1,8 @@
+/* Global styles for Next.js app */
+html,
+body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}

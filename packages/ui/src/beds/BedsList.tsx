@@ -1,13 +1,13 @@
 import type { Bed } from '@kaveh/core';
 import { YStack, XStack, Text, Button, Separator } from 'tamagui';
 
-type Props = {
+export type BedsListProps = {
   beds: Bed[];
   onReserve: (id: string) => void;
   onRelease: (id: string) => void;
 };
 
-export default function BedsList({ beds, onReserve, onRelease }: Props) {
+export function BedsList({ beds, onReserve, onRelease }: BedsListProps) {
   return (
     <YStack p="$4" gap="$3">
       {beds.map((b) => (

@@ -1,10 +1,7 @@
-import BedsList from '@/flows/screens/Beds/components/BedsList/BedsList';
-import { useBeds } from '@/flows/screens/Beds/components/BedsList/useBeds';
+import { BedsList } from '@kaveh/ui';
+import { useBeds, sampleBeds } from '@kaveh/core';
 
 export default function BedsScreen() {
-  const { beds, reserve, release } = useBeds([
-    { id: '1', label: 'Bed 1', status: 'available' },
-    { id: '2', label: 'Bed 2', status: 'reserved' },
-  ]);
+  const { beds, reserve, release } = useBeds(sampleBeds);
   return <BedsList beds={beds} onReserve={reserve} onRelease={release} />;
 }
