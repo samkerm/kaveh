@@ -10,8 +10,8 @@ module.exports = {
   },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
-    '^@kaveh/core$': '<rootDir>/packages/core/src',
-    '^@kaveh/ui$': '<rootDir>/packages/ui/src',
+    '^@kaveh/core$': '<rootDir>/shared/core/src',
+    '^@kaveh/ui$': '<rootDir>/shared/ui/src',
     '^@tamagui-config$': '<rootDir>/tamagui.config.ts',
   },
   transformIgnorePatterns: [

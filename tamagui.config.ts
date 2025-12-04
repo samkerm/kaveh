@@ -5,9 +5,19 @@ import { createTamagui } from 'tamagui';
 
 const interFont = createInterFont();
 
+const themesWithOutline = Object.fromEntries(
+  Object.entries(themes).map(([name, theme]) => [
+    name,
+    {
+      ...theme,
+      outlineColor: (theme as any).borderColor ?? '#cccccc',
+    },
+  ]),
+);
+
 const tamaguiConfig = createTamagui({
   defaultTheme: 'light',
-  themes,
+  themes: themesWithOutline,
   tokens,
   fonts: {
     body: interFont,

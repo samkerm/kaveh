@@ -11,9 +11,9 @@
       "@/ui/*": ["../../src/ui/*"],
       "@/lib/*": ["../../src/lib/*"],
       "@/api/*": ["../../src/api/*"],
-      "@/theme/*": ["../../src/theme/*"],
-      "@kaveh/ui": ["../../packages/ui/src"],
-      "@kaveh/core": ["../../packages/core/src"]
+      "@theme/*": ["../../src/theme/*"],
+      "@kaveh/ui": ["../../shared/ui/src"],
+      "@kaveh/core": ["../../shared/core/src"]
     },
     "isolatedModules": true,
     "plugins": [

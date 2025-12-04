@@ -10,8 +10,8 @@
     "typecheck": "tsc --noEmit",
     "typecheck:web": "tsc --noEmit -p apps/web/tsconfig.json",
     "typecheck:all": "yarn typecheck && yarn typecheck:web",
-    "lint": "eslint src apps packages --config eslint.config.cjs",
-    "lint:fix": "eslint src apps packages --fix --config eslint.config.cjs",
+    "lint": "eslint src apps shared --config eslint.config.cjs",
+    "lint:fix": "eslint src apps shared --fix --config eslint.config.cjs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "jest --config jest.config.cjs",
@@ -23,7 +23,7 @@
   },
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "shared/*"
   ],
   "dependencies": {
     "@react-navigation/material-top-tabs": "^7.4.3",
