@@ -1,4 +1,4 @@
-# Kaveh
+# Resonara
 
 Cross-platform Expo app (iOS, Android, Web) with Expo Router, Tamagui, TypeScript, ESLint/Prettier, Jest, and Husky.
 

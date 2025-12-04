@@ -12,8 +12,8 @@
       "@/lib/*": ["../../src/lib/*"],
       "@/api/*": ["../../src/api/*"],
       "@theme/*": ["../../src/theme/*"],
-      "@kaveh/ui": ["../../shared/ui/src"],
-      "@kaveh/core": ["../../shared/core/src"]
+      "@resonara/ui": ["../../shared/ui/src"],
+      "@resonara/core": ["../../shared/core/src"]
     },
     "isolatedModules": true,
     "plugins": [

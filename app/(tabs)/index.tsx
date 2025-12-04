@@ -5,7 +5,7 @@ export default function HomeScreen() {
   return (
     <YStack f={1} ai="center" jc="center" p="$4" gap="$4">
       <Text fontSize={20} fontWeight="600">
-        Welcome to Kaveh
+        Welcome to Resonara
       </Text>
       <Separator />
       <XStack gap="$3">

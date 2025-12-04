@@ -1,4 +1,4 @@
-import type { Bed } from '@kaveh/core';
+import type { Bed } from '@resonara/core';
 import { YStack, XStack, Text, Button, Separator } from 'tamagui';
 
 type Props = {

@@ -10,8 +10,8 @@
       "@/api/*": ["src/api/*"],
       "@/theme/*": ["src/theme/*"],
       "@/navigation/*": ["src/navigation/*"],
-      "@kaveh/core": ["shared/core/src"],
-      "@kaveh/ui": ["shared/ui/src"],
+      "@resonara/core": ["shared/core/src"],
+      "@resonara/ui": ["shared/ui/src"],
       "@tamagui-config": ["tamagui.config.ts"]
     }
   },

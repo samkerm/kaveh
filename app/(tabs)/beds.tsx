@@ -1,5 +1,5 @@
-import { BedsList } from '@kaveh/ui';
-import { useBeds, sampleBeds } from '@kaveh/core';
+import { BedsList } from '@resonara/ui';
+import { useBeds, sampleBeds } from '@resonara/core';
 
 export default function BedsScreen() {
   const { beds, reserve, release } = useBeds(sampleBeds);

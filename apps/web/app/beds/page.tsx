@@ -1,8 +1,8 @@
 'use client';
 
-import { sampleBeds } from '@kaveh/core';
-import type { Bed } from '@kaveh/core';
-import { BedsList } from '@kaveh/ui';
+import { sampleBeds } from '@resonara/core';
+import type { Bed } from '@resonara/core';
+import { BedsList } from '@resonara/ui';
 import { YStack } from 'tamagui';
 
 export default function BedsPage() {
